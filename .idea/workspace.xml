@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ae6f665-985e-4c3a-97cc-54e1fcd8bf4f" name="Changes" comment="newVersus3">
-      <change afterPath="$PROJECT_DIR$/task_3.py" afterDir="false" />
+    <list default="true" id="0ae6f665-985e-4c3a-97cc-54e1fcd8bf4f" name="Changes" comment="newVersus_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/training.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.training">
+  <component name="RunManager" selected="Python.task_3">
     <configuration name="task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myNewPyProject" />
       <option name="ENV_FILES" value="" />
@@ -131,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.training" />
         <item itemvalue="Python.task_3" />
+        <item itemvalue="Python.training" />
         <item itemvalue="Python.task_2" />
       </list>
     </recent_temporary>
@@ -184,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778677147342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="newVersus_3">
+      <option name="closed" value="true" />
+      <created>1778693238844</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778693238844</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,7 +200,8 @@
     <MESSAGE value="newVersus1" />
     <MESSAGE value="newVersus2" />
     <MESSAGE value="newVersus3" />
-    <option name="LAST_COMMIT_MESSAGE" value="newVersus3" />
+    <MESSAGE value="newVersus_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="newVersus_3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
