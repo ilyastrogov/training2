@@ -38,15 +38,13 @@ class ListValue:
         map_space = str.maketrans('~`!@#$%^&*()-_–=+":?.,><//''', '                          ')
         mod_text = string_for_search.translate(map_space).split()
 
-        count1 = 0
         result = []
-        for _ in range(len(mod_text) - 1):
+        for index1 in range(len(mod_text) - 1):
 
-            if (len(mod_text[count1]) != 1 and len(mod_text[count1 + 1]) != 1 and
-                    mod_text[count1][0] == mod_text[count1 + 1][len(mod_text[count1 + 1]) - 1]):
-                result.append(mod_text[count1])
-                result.append(mod_text[count1 + 1])
-            count1 += 1
+            if (len(mod_text[index1]) != 1 and len(mod_text[index1 + 1]) != 1 and
+                    mod_text[index1][0] == mod_text[index1 + 1][len(mod_text[index1 + 1]) - 1]):
+                result.append(mod_text[index1])
+                result.append(mod_text[index1 + 1])
         return result
 class PrintPosition1(ListValue):
 
@@ -58,3 +56,4 @@ print(d)
 end_time = time.time()
 execution_time = end_time - start_time
 print(f"Время выполнения: {round(execution_time, 6)} секунд")
+# Самое быстрое 0,0003 сек.
