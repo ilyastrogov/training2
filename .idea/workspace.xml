@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ae6f665-985e-4c3a-97cc-54e1fcd8bf4f" name="Changes" comment="Versus_7">
-      <change afterPath="$PROJECT_DIR$/task_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_9.py" afterDir="false" />
+    <list default="true" id="0ae6f665-985e-4c3a-97cc-54e1fcd8bf4f" name="Changes" comment="Versus_11">
+      <change afterPath="$PROJECT_DIR$/task_12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_11.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.task_10.executor": "Run",
     "Python.task_11.executor": "Run",
+    "Python.task_12.executor": "Run",
+    "Python.task_13.executor": "Run",
     "Python.task_2.executor": "Run",
     "Python.task_3.executor": "Run",
     "Python.task_4.executor": "Run",
@@ -73,7 +73,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.task_11">
+  <component name="RunManager" selected="Python.task_13">
     <configuration name="task_10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myNewPyProject" />
       <option name="ENV_FILES" value="" />
@@ -118,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task_12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myNewPyProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task_13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myNewPyProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +153,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task_13" />
+        <item itemvalue="Python.task_12" />
         <item itemvalue="Python.task_11" />
         <item itemvalue="Python.task_10" />
         <item itemvalue="Python.task_9" />
-        <item itemvalue="Python.task_7" />
-        <item itemvalue="Python.task_8" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778848933263</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Versus_11">
+      <option name="closed" value="true" />
+      <created>1778930851391</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1778930851391</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,7 +311,8 @@
     <MESSAGE value="Versus_5" />
     <MESSAGE value="Versus_6" />
     <MESSAGE value="Versus_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Versus_7" />
+    <MESSAGE value="Versus_11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versus_11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
