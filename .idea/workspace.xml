@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ae6f665-985e-4c3a-97cc-54e1fcd8bf4f" name="Changes" comment="Versus_12">
-      <change afterPath="$PROJECT_DIR$/date_day.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/del_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
+    <list default="true" id="0ae6f665-985e-4c3a-97cc-54e1fcd8bf4f" name="Changes" comment="Versus_15">
+      <change afterPath="$PROJECT_DIR$/second/Algarithm_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/del_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/temp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/del_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/del_words.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,62 +47,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.date_day.executor&quot;: &quot;Run&quot;,
-    &quot;Python.del_words.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.training.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Decor_have_are_yu.executor": "Run",
+    "Python.date_day.executor": "Run",
+    "Python.del_string.executor": "Run",
+    "Python.del_words (1).executor": "Run",
+    "Python.del_words.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.sort.executor": "Run",
+    "Python.t_3_my_dict.executor": "Run",
+    "Python.t_5_stak_manager.executor": "Run",
+    "Python.t_6_ABC_class.executor": "Run",
+    "Python.t_7Matrix_2.executor": "Run",
+    "Python.t_7_Matrix.executor": "Run",
+    "Python.task_1.executor": "Run",
+    "Python.task_10.executor": "Run",
+    "Python.task_11.executor": "Run",
+    "Python.task_12.executor": "Run",
+    "Python.task_13.executor": "Run",
+    "Python.task_14.executor": "Run",
+    "Python.task_2.executor": "Run",
+    "Python.task_3.2.executor": "Run",
+    "Python.task_3.executor": "Run",
+    "Python.task_4.executor": "Run",
+    "Python.task_5.executor": "Run",
+    "Python.task_6.executor": "Run",
+    "Python.task_7.executor": "Run",
+    "Python.task_8.executor": "Run",
+    "Python.task_9.executor": "Run",
+    "Python.temp (1).executor": "Run",
+    "Python.temp.executor": "Run",
+    "Python.training.executor": "Run",
+    "Python.try_t_3_pap_child.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python.date_day">
-    <configuration name="date_day" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="myNewPyProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/date_day.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Python.del_words">
     <configuration name="del_words" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myNewPyProject" />
       <option name="ENV_FILES" value="" />
@@ -114,7 +108,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\myNewPyProject\del_words.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/del_words.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myNewPyProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hron/Module26/01_num_squares" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hron/Module26/01_num_squares/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t_7Matrix_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myNewPyProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hron/temp1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_13.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hron/temp1/t_7Matrix_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t_7_Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myNewPyProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,11 +170,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hron/temp1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hron/temp1/t_7_Matrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myNewPyProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second/temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.date_day" />
-        <item itemvalue="Python.temp" />
         <item itemvalue="Python.del_words" />
-        <item itemvalue="Python.task_13" />
-        <item itemvalue="Python.task_12" />
+        <item itemvalue="Python.temp (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.t_7_Matrix" />
+        <item itemvalue="Python.t_7Matrix_2" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779000258940</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Versus_15">
+      <option name="closed" value="true" />
+      <created>1779263598582</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1779263598582</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -326,7 +350,8 @@
     <MESSAGE value="Versus_7" />
     <MESSAGE value="Versus_11" />
     <MESSAGE value="Versus_12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Versus_12" />
+    <MESSAGE value="Versus_15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versus_15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
