@@ -4,13 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ae6f665-985e-4c3a-97cc-54e1fcd8bf4f" name="Changes" comment="Versus_15">
-      <change afterPath="$PROJECT_DIR$/second/Algarithm_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second/del_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second/sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second/temp.py" afterDir="false" />
+    <list default="true" id="0ae6f665-985e-4c3a-97cc-54e1fcd8bf4f" name="Changes" comment="Versus_16">
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/DejaVuSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/NewText.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/PolechitsyaVDrugoyRaz.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/PolechitsyaVDrugoyRaz.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/Zdorova.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/aaa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/build/new_f_win/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/build/new_f_win/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/build/new_f_win/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/build/new_f_win/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/build/new_f_win/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/build/new_f_win/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/build/new_f_win/new_f_win.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/build/new_f_win/warn-new_f_win.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/build/new_f_win/xref-new_f_win.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/davay.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/ddd.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/dist/DejaVuSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/dist/new_f_win.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/dist/try.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/dist/try.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/hau.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/new_f_win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/new_f_win.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/nu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/tab_name.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/temp_f_win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/temp_win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/temp_win2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/temp_win3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/tes.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/test2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/test21.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/text3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/try.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/vkladkaObnovis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progs_for_win/НовыйТекст.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prog_for_win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/DejaVuSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/Vsyo poluchilos.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/Vsyo poluchilos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/Yes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/Yes1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/Yes1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/Yes2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/Yes2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/Yes3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/Yes3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/createPDF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/date_day_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/file_date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/file_pdf_date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/fonts/DejaVuSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/fonts/DejaVuSans-BoldOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/fonts/DejaVuSans-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/fonts/DejaVuSans-Oblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/fonts/DejaVuSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/fonts/DejaVuSerif.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/hello_world.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/new_f_win1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/new_file.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/output.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/output2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/output_pymupdf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/poluchilos.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/reportlab_example.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/temp2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/temp_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/temp_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/temp_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/temp_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second/test.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myNewPyProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myNewPyProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/del_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/del_words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date_day.py" beforeDir="false" afterPath="$PROJECT_DIR$/date_day.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +123,14 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Decor_have_are_yu.executor": "Run",
     "Python.date_day.executor": "Run",
+    "Python.date_day_2.executor": "Run",
     "Python.del_string.executor": "Run",
     "Python.del_words (1).executor": "Run",
     "Python.del_words.executor": "Run",
+    "Python.file_date.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.new_f_win.executor": "Run",
+    "Python.prog_for_win.executor": "Run",
     "Python.sort.executor": "Run",
     "Python.t_3_my_dict.executor": "Run",
     "Python.t_5_stak_manager.executor": "Run",
@@ -79,13 +154,23 @@
     "Python.task_9.executor": "Run",
     "Python.temp (1).executor": "Run",
     "Python.temp.executor": "Run",
+    "Python.temp2.executor": "Run",
+    "Python.temp_3.executor": "Run",
+    "Python.temp_4.executor": "Run",
+    "Python.temp_5.executor": "Run",
+    "Python.temp_6.executor": "Run",
+    "Python.temp_f_win.executor": "Run",
+    "Python.temp_win.executor": "Run",
+    "Python.temp_win2.executor": "Run",
+    "Python.temp_win3.executor": "Run",
     "Python.training.executor": "Run",
     "Python.try_t_3_pap_child.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/myNewPyProject/Progs_for_win",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -94,96 +179,14 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.del_words">
-    <configuration name="del_words" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="myNewPyProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/del_words.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="myNewPyProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hron/Module26/01_num_squares" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hron/Module26/01_num_squares/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="t_7Matrix_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="myNewPyProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hron/temp1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hron/temp1/t_7Matrix_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="t_7_Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="myNewPyProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hron/temp1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hron/temp1/t_7_Matrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="temp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\myNewPyProject\Progs_for_win" />
+      <recent name="C:\myNewPyProject\second" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.new_f_win">
+    <configuration name="date_day_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myNewPyProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,7 +199,95 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second/temp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second/date_day_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="new_f_win" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myNewPyProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Progs_for_win" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Progs_for_win/new_f_win.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myNewPyProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second/temp_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp_f_win" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myNewPyProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Progs_for_win" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Progs_for_win/temp_f_win.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="temp_win" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myNewPyProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Progs_for_win" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Progs_for_win/temp_win.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.del_words" />
-        <item itemvalue="Python.temp (1)" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.t_7_Matrix" />
-        <item itemvalue="Python.t_7Matrix_2" />
+        <item itemvalue="Python.new_f_win" />
+        <item itemvalue="Python.temp_f_win" />
+        <item itemvalue="Python.temp_6" />
+        <item itemvalue="Python.date_day_2" />
+        <item itemvalue="Python.temp_win" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779263598582</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Versus_16">
+      <option name="closed" value="true" />
+      <created>1779559298741</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1779559298741</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -351,7 +450,8 @@
     <MESSAGE value="Versus_11" />
     <MESSAGE value="Versus_12" />
     <MESSAGE value="Versus_15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Versus_15" />
+    <MESSAGE value="Versus_16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versus_16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
