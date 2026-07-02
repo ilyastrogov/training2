@@ -1,9 +1,8 @@
-
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, QTextEdit, QScrollArea,
                              QToolBar, QAction, QFontComboBox, QComboBox, QFileDialog, QSpinBox,
                              QMessageBox, QStatusBar, QTabWidget, QWidget, QLabel, QLineEdit, QPlainTextEdit)
-from PyQt5.QtGui import QFont, QPixmap, QTextCharFormat, QColor, QTextCursor
+from PyQt5.QtGui import QFont, QPixmap, QTextCharFormat, QColor
 from PyQt5.QtCore import Qt, QUrl
 
 from PyQt5.QtWebEngineWidgets import QWebEngineView
@@ -27,11 +26,11 @@ from PyQt5.QtPrintSupport import QPrinter
 from PyQt5.QtWidgets import QFileDialog
 
 
-
 # import
 # from file_date import WritingText, CreateFile
 class TextTab(QWidget):
     """Виджет вкладки с текстовым редактором и информацией о файле"""
+
     def __init__(self, filepath=None):
         super().__init__()
         self.filepath = filepath
@@ -79,16 +78,8 @@ class TextCanvas(QMainWindow):
         self.toolbar.setToolButtonStyle(Qt.ToolButtonTextUnderIcon)
 
         # Выбор шрифта11111111111 pdf
-        # self.font_combo = QFontComboBox()
-        # self.font_combo.currentFontChanged.connect(self.change_font)
-        # self.toolbar.addWidget(self.font_combo)
-
-        self.toolbar.addSeparator()
-        self.toolbar.addWidget(QLabel("Шрифт для замены:"))
         self.font_combo = QFontComboBox()
-        self.font_combo.setCurrentFont(QFont("Arial"))  # шрифт по умолчанию
         self.font_combo.currentFontChanged.connect(self.change_font)
-
         self.toolbar.addWidget(self.font_combo)
 
         # Размер шрифта
@@ -170,7 +161,6 @@ class TextCanvas(QMainWindow):
         self.resize(900, 700)
 
         self.document_cache = {}
-
 
     # Методы для работы с вкладками
     def addNewTab(self, filepath=None):
@@ -269,6 +259,7 @@ class TextCanvas(QMainWindow):
         # file_name = file + '.txt'
         print('f', file_name)
         if file_name.split('.')[1] == 'pdf':
+            print('2', file_name)
             cursor = self.text_edit.textCursor()
             if cursor.hasSelection():
                 fmt = QTextCharFormat()
@@ -276,63 +267,9 @@ class TextCanvas(QMainWindow):
                 cursor.mergeCharFormat(fmt)
             else:
                 self.text_edit.setCurrentFont(font)
-            # print('2', font.family())
-            # cursor = self.text_edit.textCursor()
-            # # if cursor.hasSelection():
-            # print('2.1',self.size_spin.value())
-            # ch = self.create_qt_font_from_pdf_span(self.size_spin.value(), font.family())
-            # cursor.setCharFormat(ch)
-            # fmt = QTextCharFormat()
-            # fmt.setFontFamily(font.family())
-            # fmt.setFont(font)
-            # cursor.select(QTextCursor.WordUnderCursor)
-            # cursor.mergeCharFormat(fmt)
-            # cursor.setCharFormat(fmt)
-            # else:
-            # self.text_edit.setCurrentFont(font)
-            # cursor.insertText(self.text_edit.toPlainText())
-            # Устанавливаем формат как текущий для нового текста
-            # current_format = QTextCharFormat()
-            # current_format.setFont(font)
-            # print('3', font.family())
-            # start = cursor.selectionStart()
-            # end = cursor.selectionEnd()
-            #
-            # temp_cursor = QTextCursor(cursor)
-            # temp_cursor.setPosition(start)
-            #
-            # fmt = QTextCharFormat()
-            # fmt.setFont(font)
-            # self.text_edit.setFontFamily(font.family())
-            # self.text_edit.setCursor(cursor)
-
         elif file_name.split('.')[1] == 'txt':
             print('3', file_name)
             self.changeFont(font)
-
-
-
-    def create_qt_font_from_pdf_span(self, size, font):
-        """Создаёт QFont и QTextCharFormat на основе данных span'а из PDF."""
-        pdf_font_name = font
-        size = size
-
-        # qt_font_name = self.find_matching_font(pdf_font_name)
-        qt_font = QFont(pdf_font_name, int(size))
-
-        font_lower = pdf_font_name.lower()
-        if 'bold' in font_lower:
-            qt_font.setBold(True)
-        if 'italic' in font_lower:
-            qt_font.setItalic(True)
-
-        # Создаём формат символа
-        char_format = QTextCharFormat()
-        char_format.setFont(qt_font)
-
-        return char_format#, qt_font_name
-
-
 
     def change_font_size(self, size):
         cursor = self.text_edit.textCursor()
@@ -355,14 +292,11 @@ class TextCanvas(QMainWindow):
         fmt.setUnderlineStyle(QTextCharFormat.SingleUnderline if checked else QTextCharFormat.NoUnderline)
         self.text_edit.mergeCurrentCharFormat(fmt)
 
-
-
     # Обработчики форматирования
     def changeFont(self, font):
         current_tab = self.getCurrentTextEdit()
         if current_tab:
             current_tab.setCurrentFont(font)
-
 
     def changeFontSize(self, size):
         current_tab = self.getCurrentTextEdit()
@@ -446,13 +380,11 @@ class TextCanvas(QMainWindow):
                         self._saveToFile(filename, text_file)
                     elif tab_name.split('.')[1] == 'pdf':
                         print('blinbom')
-                        current_format = current_widget.currentCharFormat()
                         text_file = current_widget.text_edit.toHtml()
-                        self.text_edit = QTextEdit()
-                        self.text_edit.setHtml(text_file)
-                        current_widget.setCurrentCharFormat(current_format)
-                        print('333', self.text_edit)
-                        self._saveToFile(tab_name, self.text_edit)
+                        temp_text_edit = QTextEdit()
+                        temp_text_edit.setHtml(text_file)
+                        print('333', temp_text_edit)
+                        self._saveToFile(tab_name, temp_text_edit)
                         # WritingText().writing(CreateFile().creation(tab_name), text_file)
                         # self.text_edit = QTextEdit()
                         # self.text_edit.setPlainText(text_file)
@@ -463,7 +395,7 @@ class TextCanvas(QMainWindow):
                         # self.closeTab(0)
 
 
-        elif file_name.split('.')[1] == 'pdf': # Если файл уже был открыт
+        elif file_name.split('.')[1] == 'pdf':  # Если файл уже был открыт
             print('44')
             # file_path = self.search_path.find_file_smart(file_name)
             print('444')
@@ -475,7 +407,6 @@ class TextCanvas(QMainWindow):
             temp_text_edit.setHtml(text_file)
             print('4444', temp_text_edit)
             self._saveToFile(file_name, temp_text_edit)
-
 
     def _saveToFile(self, filepath, text_edit):
         """Вспомогательный метод для сохранения текста в указанный файл"""
@@ -498,10 +429,9 @@ class TextCanvas(QMainWindow):
             QMessageBox.critical(self, "Ошибка сохранения", f"Не удалось сохранить файл:\n{e}")
 
 
-
-
 class ExtractText:
     """ Класс для извлечения текста из PDF файла"""
+
     def extraction(self, input_filename: str) -> str:
         text = ''
         with fitz.open(input_filename) as doc:
@@ -509,6 +439,7 @@ class ExtractText:
                 page_text = page.get_text()
                 text += page_text
         return text
+
 
 class CreatePdfViewer:
     @staticmethod
@@ -540,6 +471,7 @@ class CreatePdfViewer:
 
         return widget
 
+
 class ShouPdf:
     @staticmethod
     def show_pdf_page(doc, page_num, parent_widget):
@@ -564,6 +496,7 @@ class ShouPdf:
         except Exception as e:
             print(f"Ошибка отображения страницы: {e}")
 
+
 class CreateFile:
     """ Класс для создания нового файла """
 
@@ -575,6 +508,7 @@ class CreateFile:
         document.save(filename=output)
         document.close()
         return output
+
 
 class WritingText:
     @staticmethod
@@ -593,11 +527,13 @@ class WritingText:
             story = [Paragraph(text, my_style)]
             doc.build(story)
         return doc.filename
+
+
 class WritingTextHTML:
     """ Класс для записи текста в новый файл """
 
     @staticmethod
-    def writing_html(new_file: str, text)  -> None:
+    def writing_html(new_file: str, text) -> None:
         pdfmetrics.registerFont(TTFont('DejaVuSans', 'DejaVuSans.ttf'))
         my_style = ParagraphStyle(name='MyStyle', fontName='DejaVuSans', fontSize=12)
 
@@ -624,6 +560,7 @@ class WritingTextHTML:
         #     story = [Paragraph(text, my_style)]
         #     doc.build(story)
         # return doc.filename
+
 
 class SearchPath:
     def find_file_smart(self, filename: str) -> Path | None:
@@ -687,6 +624,8 @@ class SearchPath:
     #         print(f"\nИтоговый путь: {result}")
     #     else:
     #         print("\nФайл не найден.")
+
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     search_filepath = SearchPath()

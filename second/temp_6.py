@@ -266,3 +266,26 @@ if __name__ == '__main__':
     canvas = TextCanvas()
     canvas.show()
     sys.exit(app.exec_())
+
+# import fitz
+            #
+            # with fitz.open("document.pdf") as doc:
+            #     full_structure = []
+            #     for page_num, page in enumerate(doc):
+            #         page_data = page.get_text("dict")
+            #         full_structure.append({
+            #             "page_number": page_num + 1,
+            #             "width": page.rect.width,
+            #             "height": page.rect.height,
+            #             "blocks": page_data["blocks"]
+            #         })
+# html_content = ''
+#                 with fitz.open(filepath) as doc:
+#                     html_content = ''.join(page.get_text("html") for page in doc)
+#                     print(html_content)
+#
+#                 print('2')
+#                 temp_text_edit = QTextEdit()
+#                 print('3', temp_text_edit)
+#                 temp_text_edit.setHtml(html_content)
+#                 print('4', temp_text_edit)
